@@ -13,6 +13,7 @@
 }
 #resumeBody {
     display: flex;
+    justify-content: flex-start;;
 }
 #role {
     text-align: left;
