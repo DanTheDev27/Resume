@@ -8,6 +8,7 @@
     text-align: center;
     overflow-wrap: break-word;
     padding: 20px;
+    padding-top: 0px;
     padding-bottom: 0px;
 }
 #resumeBody {
@@ -38,6 +39,12 @@
 
 li {
     padding: 2px;
+}
+#name{
+    font-size: 2.5rem;
+}
+#summaryHeader, #workHistoryHeader, #contactMe, #educationHeader, #skillsHeader {
+    font-size: 1.5rem;
 }
 
 #professionalSummary, #workHistory, #myDetailsAndSkills {
