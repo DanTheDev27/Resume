@@ -72,7 +72,7 @@ a:active {
 hr {
     width: 100%; /* Makes the horizontal line 80% of the page width */
     height: 3px; /* Sets the thickness of the line */
-    background-color: #708090; /* Blue color for the line */
+    background-color: #007BFF; /* Blue color for the line */
     border: none; /* Removes the default border */
     margin: 20px auto; /* Adds some space above and below the line */
     border-radius: 5px; /* Rounds the corners of the hr tag*/
