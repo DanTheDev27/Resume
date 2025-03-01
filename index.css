@@ -84,3 +84,14 @@ hr {
     margin: 20px auto; /* Adds some space above and below the line */
     border-radius: 5px; /* Rounds the corners of the hr tag*/
 }
+
+@media print {
+    hr {
+      display: block; /* Ensure it's displayed */
+      border: 1px solid #000; /* Optional: set a visible border */
+      margin: 10px 0; /* Optional: adjust margins for spacing */
+      background-color: #007BFF; /* Blue color for the line */
+      height: 2px; /* Set the height of the line */
+    }
+  }
+  
