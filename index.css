@@ -1,0 +1,79 @@
+/* body {
+    background: #242830;
+} */
+
+#header {
+    height:max-content;
+    /* border: solid; */
+    text-align: center;
+    overflow-wrap: break-word;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+#resumeBody {
+    display: flex;
+}
+#role {
+    text-align: left;
+}
+
+#summaryAndHistory {
+    width: 65%;
+    text-align: center;
+    padding: 20px;
+}
+
+#myDetailsAndSkills {
+    width: 35%;
+    text-align: center;
+    padding: 20px;
+    overflow-wrap: break-word;
+}
+
+#summaryAndHistory, #myDetailsAndSkills {
+    /* border: solid; */
+    height: max-content;
+    padding-top: 0px;
+}
+
+li {
+    padding: 2px;
+}
+
+#professionalSummary, #workHistory, #myDetailsAndSkills {
+    text-align: left;
+}
+
+/* Normal state */
+a {
+    text-decoration: none; /* Removes the underline */
+    color: #3498db; /* Blue color */
+    font-weight: bold; /* Makes the text bold */
+    font-size: 16px; /* Sets the font size */
+}
+
+/* Hover state (when the user hovers over the link) */
+a:hover {
+    color: #2ecc71; /* Changes the color to green on hover */
+    text-decoration: underline; /* Adds an underline when hovering */
+}
+
+/* Visited state (when the link has been clicked) */
+a:visited {
+    color: #9b59b6; /* Purple color for visited links */
+}
+
+/* Active state (when the link is being clicked) */
+a:active {
+    color: #e74c3c; /* Red color when the link is being clicked */
+    text-decoration: underline; /* Keeps the underline when active */
+}
+
+hr {
+    width: 100%; /* Makes the horizontal line 80% of the page width */
+    height: 3px; /* Sets the thickness of the line */
+    background-color: #708090; /* Blue color for the line */
+    border: none; /* Removes the default border */
+    margin: 20px auto; /* Adds some space above and below the line */
+    border-radius: 5px; /* Rounds the corners of the hr tag*/
+}
